@@ -1,0 +1,376 @@
+.intro
+{
+    font-weight: bold;
+}
+
+.just
+{
+    font-weight: bold;
+}
+
+#int 
+{
+    color: purple;
+}
+
+.souligne
+{
+    text-decoration: underline;
+}
+
+.audessus
+{
+    text-decoration: overline;
+}
+
+.barre
+{
+    text-decoration: line-through;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.newcolor
+{
+    color: #a63b06;
+}
+
+h1
+{
+    background-color: rgb(85, 32, 72);
+}
+
+body
+{
+    background-image: url("neige\ fond.jpg");
+}
+
+.transparence
+{
+    opacity: 0.6;
+}
+
+.fondtransparent
+{
+    background-color: rgba(255,0,0,0.6);
+}
+
+h1
+{
+    border: 3px green solid;
+}
+
+.bordurehaut
+{
+    border-top: 3px blue dotted;
+}
+
+.bordurebas
+{
+    border-bottom: 3px blue dotted; 
+}
+
+.arrondi
+{
+    border: 3px red dotted;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px black;
+}
+
+.ombragetexte
+{
+    text-shadow: 6px 6px 5px black;
+}
+
+a:hover
+{
+    color:red;
+}
+
+.encadre
+{
+    width: 40%;
+
+    background-color: blue;
+}
+
+nav
+{
+    float: left;
+    
+    width: 150px;
+    border: 1px black;
+}
+
+section
+{
+    border: 1px blue;
+}
+
+.testblock
+{
+    width: 50%;
+    min-width: 400px;
+}
+
+.marge
+{
+    width: 350px;
+    border: 1px solid black;
+    text-align: justify;
+    margin: 50px;
+    padding: 10px;
+}
+
+.overflow {
+    width: 20%;
+    min-width: 400px;
+}
+
+.overflow
+{
+    width: 250px;
+    height: 110px;
+    text-align: justify;
+    border: solid black;
+    overflow: scroll;
+}
+
+#conteneur1
+{
+    border: 2px solid #444;
+}
+
+.element
+{
+    width: 150px;
+    height: 100px;
+}
+
+.element:nth-child(1)
+{
+    background-color: orange;
+}
+
+.element:nth-child(2)
+{
+    background-color: blue;
+}
+
+.element:nth-child(3)
+{
+    background-color: #ad6;
+}
+
+
+
+#conteneur2
+{
+    display: flex;
+    border: 2px solid #444;
+}
+
+.element
+{
+    width: 150px;
+    height: 100px;
+}
+
+.element:nth-child(4)
+{
+    background-color: orange;
+}
+
+.element:nth-child(5)
+{
+    background-color: blue;
+}
+
+.element:nth-child(6)
+{
+    background-color: #ad6;
+}
+
+
+#conteneur3
+{
+    display: flex;
+    flex-direction: column-reverse;
+    border: 2px solid #444;
+}
+
+.element
+{
+    width: 150px;
+    height: 100px;
+}
+
+.element:nth-child(4)
+{
+    background-color: orange;
+}
+
+.element:nth-child(5)
+{
+    background-color: blue;
+}
+
+.element:nth-child(6)
+{
+    background-color: #ad6;
+}
+
+
+#conteneur4
+{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    border: 2px solid #444;
+}
+
+.element
+{
+    width: 150px;
+    height: 100px;
+}
+
+.element:nth-child(4)
+{
+    background-color: orange;
+}
+
+.element:nth-child(5)
+{
+    background-color: blue;
+}
+
+.element:nth-child(6)
+{
+    background-color: #ad6;
+}
+
+
+
+#conteneur5
+{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #444;
+}
+
+.element
+{
+    width: 150px;
+    height: 100px;
+}
+
+.element:nth-child(4)
+{
+    background-color: orange;
+}
+
+.element:nth-child(5)
+{
+    background-color: blue;
+}
+
+.element:nth-child(6)
+{
+    background-color: #ad6;
+}
+
+
+
+#conteneur6
+{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #444;
+}
+
+.element
+{
+    width: 150px;
+    height: 100px;
+}
+
+.element:nth-child(4)
+{
+    background-color: orange;
+}
+
+.element:nth-child(5)
+{
+    background-color: blue;
+}
+
+.element:nth-child(6)
+{
+    background-color: #ad6;
+}
+
+
+
+#conteneur7
+{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #444;
+}
+
+.element
+{
+    width: 150px;
+    height: 100px;
+}
+
+.element:nth-child(4)
+{
+    background-color: orange;
+}
+
+.element:nth-child(5)
+{
+    background-color: blue;
+}
+
+.element:nth-child(6)
+{
+    background-color: #ad6;
+}
+
+
+
+#conteneur8
+{
+    display: flex;
+
+    height: 200px;
+    border: 2px solid #444;
+}
+
+.element
+{
+    width: 150px;
+    height: 100px;
+}
+
+.element:nth-child(4)
+{
+    background-color: orange;
+    margin: auto
+}
+
+table
+{
+    border-collapse: collapse;
+}
+td, th /* Mettre une bordure sur les td ET les th */
+{
+    border: 1px solid black;
+}
+
